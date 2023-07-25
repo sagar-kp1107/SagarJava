@@ -3,8 +3,8 @@ package arrays;
 public class AddTwoMatrix {
 	public static void main(String args[]) {
 		int m, n, c, d;
-
-		int first[][] = { { 1, 2 }, { 5, 10 }, { 2, 6 } };
+                //iss tarah se hum 3D array ma input data he
+		int first[][]/*gives the position*/ = { { 1, 2 }, { 5, 10 }, { 2, 6 } };//show value
 		int second[][] = { { 2, 6 }, { 1, 2 }, { 5, 3 } };
 
 		m = first.length;
@@ -16,7 +16,7 @@ public class AddTwoMatrix {
 
 		for (c = 0; c < m; c++)
 			for (d = 0; d < n; d++)
-				sum[c][d] = first[c][d] + second[c][d]; // replace '+' with '-' to subtract matrices
+				sum[c][d] = first[c][d] + second[c][d]; 
 
 		System.out.println("Sum of 2 matrices....");
 
