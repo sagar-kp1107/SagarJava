@@ -6,10 +6,10 @@ public class SortArray {
 
 	public static void main(String[] args) {
 
-		// Number Array sorting
+		//number ko array ka form ma short karna
 		int data[] = { 4, 10, 2, 6, 1 };
 
-		Arrays.sort(data); // sort the elements in array
+		Arrays.sort(data); // idhar short hoga
 
 		for (int i : data) {
 			System.out.println(i);
