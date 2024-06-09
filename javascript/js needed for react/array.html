@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays and Objects</title>
+</head>
+<body>
+    <div id="container">simple si HTML</div>
+    <script>
+
+        // premetive type
+        let myVar = 34;
+        let myVar2 = "string";
+        let myVar3 = true;
+        let myVar4 = null;
+        let myVar5 = undefined;
+
+        //Object(khudka banaya hua)
+        let employee = {
+            name: "sagar",
+            salary: 25,
+            job: "dj dance"
+        }
+        console.log(employee)
+
+        //Array(special kind of array)
+        let names = [11,2,3,4,"sagar",undefined];
+        console.log(names[3])//bracket index number ko show karta hai
+
+
+        //Array ko hum new keyword ka help sa bhi bana sakta hai
+        let namee = [11,2,3,4,"sagar",undefined];
+        console.log(namee)
+
+        //find length of array
+        console.log(names);
+
+        //to short an array and than print
+        names = names.short();
+        console.log(names);
+
+        //add and remove elements in an array
+        names.push("this is pushed")
+        console.log(names);
+        
+        names.pop()
+        console.log(names);
+
+        //to get an array of 25 elements
+        let items = new Array(25);
+    </script>
+    
+</body>
+</html>
+<!-- ya to object banaga ya phir premitive type(string,int...) -->
