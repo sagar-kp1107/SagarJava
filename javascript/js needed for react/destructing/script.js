@@ -60,3 +60,12 @@ console.log(obj1)
       }
 
       console.log(sum(...arr4))
+
+//used in react mostly
+let obj3 = {
+  name: "sagar",
+  company: "company xyz",
+  address: "XYZ"
+
+}
+console.log({...obj1, name: "tillu"})//khali name isma change hoka tillu ho jayaga aur baki sab wassa ka wassa rahaga(matlab ya akk tarah sa overwrite kar daga)
